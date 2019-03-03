@@ -1,0 +1,14 @@
+.Movie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Movie > div {
+  padding-left: 20px;
+}
+
+.Movie > img {
+  max-height: 120px;
+}
